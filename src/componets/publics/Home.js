@@ -11,13 +11,7 @@ class Home extends Component {
 <div class="banner">
   <div>
   <section id="section1" className="" style={{ marginTop: 80 + "px" }}>
-          <div className="leftside">
-            
-            <img
-              src="https://www.graphicsprings.com/filestorage/stencils/a2c41077a3b7dbc6da8c03ffaf1daa43.png?width=500&height=500"
-              alt=""
-            />
-          </div>
+         
           
           <div className="rightside rollIn animated wow animated">
             <div className="container ">
@@ -31,7 +25,13 @@ class Home extends Component {
              
             </div>
           </div>
-       
+          <div className="leftside">
+            
+            <img
+              src="https://previews.123rf.com/images/tudmeak/tudmeak1805/tudmeak180500020/100814967-online-training-courses-vector-illustration-distance-learning-business-education-concept-internet-st.jpg"
+              alt=""
+            />
+          </div>
         </section>
   </div>
 

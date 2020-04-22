@@ -308,7 +308,7 @@ h6 {
 width: 150px;
 }
 nav {
-  background: linear-gradient(157deg, #010424, #010424);
+  background: linear-gradient(157deg, #f0f1f7, #640164);
   -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
   -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
   transition: padding-top 0.3s, padding-bottom 0.3s;
@@ -863,8 +863,8 @@ footer .credits {
   display: flex;
   width: 100%;
   height: 90vh;
-  background: #010424;
-  background: linear-gradient(57deg, hsl(0, 0%, 100%), #010424);
+  background: #640164;
+  background: linear-gradient(57deg, hsl(0, 0%, 100%), #640164);
 
   clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 0% 100%);
 }
@@ -1030,7 +1030,7 @@ footer .credits {
 }
 #product h2 {
   font-size: 38px;
-  color: #222222;
+  color: #ffffff;
   font-family: "Dosis";
   font-weight: 700;
   margin: 35px 0 25px 0;
@@ -1162,7 +1162,7 @@ footer .credits {
   line-height: 48px;
   font-size: 25px;
   color: #fff;
-  background: #010424;
+  background: #640164;
   border-radius: 50%;
   transition: all 0.3s ease-in-out;
 }
@@ -1670,12 +1670,12 @@ input.hidden {
   /* margin-top: 5%; */
   position: fixed;
   /* width: 600px; */
-  height: fit-content;
+  height: 700px;
   padding: 10px;
-  border: 1px solid #ff7800;
-  top: 50%;
+  border: 1px solid #030158;
+  top: 60%;
   left: 50%;
-  background-color: wheat;
+  background-color:#ffffff;
   border-radius: 4px;
   box-shadow: 0 5px 25px rgba(0, 0, 0, 0.3);
   transform: translate(-50%, -50%);
@@ -1689,10 +1689,10 @@ input.hidden {
   margin: 10px;
 }
 .product-big-img {
-  width: 45%;
-  height: auto;
+  width: 90%;
+  height: 300px;
   display: inline-flex;
-  float: left;
+ 
 }
 .product-big-img img {
   width: 100%;
@@ -1894,7 +1894,7 @@ input.hidden {
   color: #3ff;
 } */
 .login-second {
-  background: linear-gradient(57deg, #010424, #010424) !important;
+  background: linear-gradient(57deg, #4b012c, #4b012c) !important;
 
   /* background: none; */
   background-size: cover;
@@ -1906,7 +1906,7 @@ input.hidden {
   font-size: 16px;
 }
 .navf {
-  background: linear-gradient(157deg, #0d1897, #010424) !important;
+  background: linear-gradient(157deg, #640164, #640164) !important;
   transition: padding-top 0.3s, padding-bottom 0.3s;
   border: none;
 }
@@ -2190,7 +2190,7 @@ main {
 }
 
 footer {
-  background: #010424;
+  background: #640164;
   margin-top: auto;
   width: 100%;
 }
@@ -2553,4 +2553,10 @@ button,input,optgroup,select,textarea{color:inherit;font:inherit;margin:0;}
 }
 .mtop{
   margin-top: 150px !important ;
+}
+.text-dark {
+  color: #ffffff!important;
+}
+.text-dark1 {
+  color: #0e0375!important;
 }
